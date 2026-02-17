@@ -1,0 +1,432 @@
+
+.Header{
+        margin-top: 14px;
+
+}
+.container{
+ background-color: #FAF1E6;
+border-radius: 25px;
+
+
+}
+
+h1.logoname a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header section */
+.logo img{
+    width: 92px;
+}
+
+.namee h1{
+
+    font-size: 22px;
+    margin-top: 28px;
+    
+}
+.Header .container .nav .link{
+    font-size: 20px;
+    padding-left: 180px;
+    margin-top: 28px;
+}
+.Header .container .nav .link a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+.butt{
+        margin-top: 22px;
+
+}
+.butt button{
+background-color: #99BC85;
+}
+
+@media (max-width: 1210px) {
+    .link{
+        display: none;
+    }
+.namee h1{
+padding-left: 22px;
+}
+.buttttt {
+margin-left: 430px;
+}
+}
+@media (max-width: 992px) {
+    .link{
+        display: none;
+    }
+.namee h1{
+padding-left: 38px;
+}
+.buttttt {
+margin-left: 300px;
+}
+}
+@media (max-width: 768px) {
+    .link{
+        display: none;
+    }
+.namee h1{
+padding-left: 57px;
+        display: ruby-text;
+
+}
+.buttttt {
+margin-left: 180px;
+}
+}
+@media (max-width: 535px) {
+    .link{
+        display: none;
+    }
+.namee h1{
+padding-left: 57px;
+        display: ruby-text;
+        font-size: 15px;
+
+}
+.buttttt {
+margin-left: 140px;
+}
+}
+@media (max-width: 450px) {
+    .link{
+        display: none;
+    }
+.namee h1{
+padding-left: 57px;
+        display: ruby-text;
+        font-size: 15px;
+
+}
+.buttttt {
+margin-left: 70px;
+}
+}
+
+/*Header End*/
+
+
+
+.slideshow{
+    margin-top: 30px;
+}
+.slideshow .container{
+    border-radius: 0;
+
+}
+
+.section1{
+            margin-top: 30px;
+position: relative;
+}
+.section1text{
+    text-align: center;
+}
+
+.section1text p{
+ margin-top: 16px;
+
+    text-align: center;
+    font-size: 15px;
+}
+.link2{
+    padding-left: 430px;
+    position: absolute;
+    text-align: center;
+    padding-top: 213px;
+}
+.middleimg {
+        margin-top: 340px;
+    height: 150px;
+}
+.section1 .container .link2 .section1butt{
+    background-color: #99BC85;
+}
+@media (max-width: 1201px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+                display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 360px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 340px;
+}
+}
+@media (max-width: 992px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+        display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 220px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 251px;
+}
+}
+@media (max-width: 767px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+        display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 140px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 180px;
+}
+}
+@media (max-width: 431px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+        display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 100px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 150px;
+}
+}
+@media (max-width: 391px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+        display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 70px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 130px;
+}
+}
+@media (max-width: 361px) {
+    .startimg{
+        display: none;
+    }
+    .endimg{
+        display: none;
+
+    }
+    .link2{
+        text-align: center;
+        padding-left: 70px;
+        padding-top: 26px;
+    
+}
+.middleimg {
+        margin-top: 100px;
+        height: 150px;
+        margin-left: 120px;
+}
+}
+
+
+
+.section2{
+        margin-top: 30px;
+
+}
+.Servicessec{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.Servicessec h1{
+    text-align: center;
+}
+.sec2par p{
+    text-align: center;
+        padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cards{
+    justify-content: space-evenly;
+}
+.carddd{
+        background-color: #FDFAF6;
+
+}
+.carddd i , h3 , p{
+        padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media (max-width: 750px) {
+    .carddd{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+.section3{
+    margin-top: 30px;
+}
+.Aboutus{
+    padding-top: 5px;
+}
+.Aboutuspara{
+
+padding-top: 10px;
+}
+.Aboutus h1{
+    text-align: center;
+}
+
+
+
+
+
+
+.section4{
+    margin-top: 30px;
+}
+.section4 h1,p{
+    text-align: center;
+}
+.carddd .sec4img1{
+width: 115px;
+    padding-top: 15px;}
+.carddd .sec4img2{
+width: 100px;
+    margin-left: 150px;
+    margin-top: -12px;}
+.section4 h2{
+    font-size: 16px;
+    margin-top: -65px;
+    margin-left: 117px;
+}
+.sara h2{
+margin-left: 128px;
+}
+.carddd p{
+    margin-top: 30px;
+}
+
+@media (max-width: 1201px) {
+
+    .sec4img2{
+        padding-right: 37px;
+    }
+}
+@media (max-width: 992px) {
+
+.carddd h2{
+padding-top: 77px;
+        display: contents;
+}
+
+   .sec4img2{
+display: none;    }
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: #FAF1E6;
+        margin-top: 30px;
+        padding-left: 83px;
+
+}
+.footlink{
+        font-size: 20px;
+margin-left: 280px;
+    margin-top: 28px;
+}
+.footer .container .navlink .footlink a{
+        text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+.footsection{
+margin-top: 12px;
+
+}
+.nameee h1{
+        font-size: 22px;
+    margin-top: 28px;
+}
+@media (max-width: 1204px) {
+    .footlink  {
+        margin-top: -66px;
+    }
+     .nameee h1{
+        margin-left: 35px;
+    }
+}
+@media (max-width: 766px) {
+    .nameee h1{
+margin-left: 70px;
+        margin-top: 16px;
+    }
+    .footlink  {
+margin-top: -79px;
+        margin-left: 225px;    }
+}
+@media (max-width: 575px) {
+    .nameee h1{
+        margin-left: 90px;
+        margin-top: -61px;
+    }
+    .footlink  {
+margin-top: -20px;
+        margin-left: 141px;
+        display: contents;  
+      }
+}
+
+
+

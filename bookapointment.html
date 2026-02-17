@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+        <link rel="stylesheet" href="css/project.css" /> 
+                <link rel="stylesheet" href="css/bookapointment.css" />    
+        <link rel="stylesheet" href="css/normalize.css" />
+                <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+
+        
+        <!-- icons : -->
+                <!-- Latest Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+</head>
+<body style="background-color: #FDFAF6;">
+    <div class="Header">
+        <div class="container">
+            <div class="nav row ">
+                <div class="logo col-1 ">
+                <a href="project.html" class="logoName" target="_blank">          
+                <img src="images/light-icon.png"  alt="logo" />
+                </a>
+                </div>
+                <div class="namee col-3 ">
+                    <h1 class="logoname">
+                    <a href="project.html" target="_blank">
+                        Dental clinic
+                    </a>
+                    </h1>
+                </div>
+                <div class="link col-6 ">
+                            <a href="project.html">Home</a>                         
+                            <a href="project.html#Services"></li>Services</a>
+                            <a href="project.html#AboutUs">About Us</a>
+                            <a href="bookapointment.html"> Contact Us</a>
+                </div>
+                <div class="butt col-1 ">
+                    <a href="bookapointment.html" target="_blank">
+
+                    <button class="btn buttttt" >Book Apointment</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+<div class="book">
+    <div class="container">
+        
+        <h3 >Book your appointment</h3>
+        <p >Set the date of your visit with our experienced dental team</p>
+
+        <form  method="get">
+                <div class="row Labels">
+                    <label class="FName col-5">Full Name</label>
+                    <label class="PNumber col-5">Phone Number</label>
+                </div>
+
+
+                <div class="row Inputs">
+                    <input type="text" class="col-5" id="hussein" placeholder="Enter Your Phone Number" name="fullname"/>
+                    <input type="text" class="col-5" id="hussein" placeholder="Enter Your Full Name" name="phonenum"/>
+                </div>
+                
+                <div class="row Spans">
+                    <span id="FullNamespanvalid" class="text-danger col-6"></span> 
+                    <span id="PhoneNumberspanvalid" class="text-danger col-6"></span>
+                </div>
+            
+                <div class="row Labels">
+                    <label class="col-5 PreferredDate">Preferred Date</label>
+                    <label class="col-5 Service Type">Srvices</label>
+                </div>
+
+                <div class="row Inputs">
+                    <input class="col-5 PreferredDate" type="date" id="PreferredDate" name="PreferredDate" />
+                    <select name="Service Type" class="col-5" id="ServiceType">
+                    <option value="1">General Dentistry</option>
+                    <option value="2">Comestic</option>
+                    <option value="3">Orthdontics</option>
+                    <option value="4">Teeth Whitening</option>
+                    </select>
+                </div>
+
+                <div class="row Spans">
+                    <span id="PreferredDatespanvalid" class="text-danger"></span> 
+                </div>
+
+
+                <div class="row Additional">
+                    <label class="col-3 ">Additional Notes</label>
+                    <textarea name="col-7" cols="100" rows="5" placeholder="Test Text"></textarea>
+                </div>
+
+                <div class="row">
+                    <div class="butt submit">
+                        <a href="bookapointment.html" target="_blank">
+                        <button class="btn buttttt validation" name="validationbtn">Book Apointment</button>
+                        </a>
+                    </div>
+                </div>
+
+        </form>
+    </div>
+</div>
+
+
+            <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="navlink row  ">
+                    <div class="logo col-1 ">
+                    <a href="project.html" class="logoName" target="_blank">
+                    <img src="images/light-icon.png"  alt="logo" />
+                    </a>
+                    </div>
+                    <div class="nameee col-lg-2 col-sm-1  ">
+                    <h1 class="logoname">
+                    <a href="project.html" target="_blank">
+                        Dental clinic
+                    </a>
+                    </h1>
+                    </div>
+                    <div class="footlink col-6 ">
+
+                                <a href="project.html" class="col-lg-4 col-md-2 col-sm-1">Home</a>                         
+                                <a href="project.html#Services"class="col-lg-4 col-md-2 col-sm-1"></li>Services</a>
+                                <a href="project.html#AboutUs"class="col-lg-4 col-md-2 col-sm-1">About Us</a>
+                                <a href="bookapointment.html"class="col-lg-4 col-md-2 col-sm-1"> Contact Us</a>
+                    </div>
+
+                </div>
+                <div class="footsection row ">
+                    &copy; 2025 SMAILY DENTAL ClINIC. All Rights Reserved .
+                </div>
+            </div>
+        </div>
+</footer>
+
+    <script src="js/project.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- Include Bootstrap CSS and JS (Required for carousel to work) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+.book{
+    margin-top: 30px;
+}
+.book .container h3,p{
+text-align: center;
+
+}
+
+.Labels{
+    justify-content: space-evenly;
+
+}
+.Inputs{
+    justify-content: space-evenly;
+        margin-bottom: 7px;
+
+}
+.Additional{
+margin-top: 25px;
+}
+label.col-3{
+    padding-left: 76px;
+}
+.submit{
+    padding-left: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 1210px) {
+    .submit{
+        padding-left: 1px;
+
+    }
+}
+@media (max-width: 775px) {
+    .submit{
+        padding-left: 30px;
+
+    }
+}
